@@ -2,6 +2,7 @@ const hour = document.getElementById('hour')
 const minute = document.getElementById('minute')
 const second = document.getElementById('second')
 const day = document.getElementById('day')
+const period = document.getElementById('period')
 var monthName = [
     'January',
     'February',
@@ -24,10 +25,14 @@ const clock = setInterval(function time(){
     let h = today.getHours()
     let min = today.getMinutes()
     let sec = today.getSeconds()
-
+    let per = "PM";
+    if(hour>=12){
+        period = "AM";
+    }
     day.innerHTML = `${d} ${monthName[m]} ${y}`
     hour.textContent = h
     minute.innerText = min
     second.innerText = sec
+    period.innerText = per
 }
 )
