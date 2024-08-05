@@ -33,11 +33,7 @@ h1{
     text-align: center;
     padding: 0 1rem;
     border-bottom: 2px solid rgb(37, 36, 36);
-<<<<<<< HEAD
     background: linear-gradient(90deg, #00dbde,  #fc00ff, #e41852);
-=======
-    background: linear-gradient(90deg, #00dbde, #fc00ff);
->>>>>>> 5f60d806faf1e70c4ee06872528334a459e3170f
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

@@ -25,16 +25,6 @@ const clock = setInterval(function time(){
     let h = today.getHours()
     let min = today.getMinutes()
     let sec = today.getSeconds()
-<<<<<<< HEAD
-    let per = "AM";
-    if(hour>=12){
-        period = "PM";
-=======
-    let per = "PM";
-    if(hour>=12){
-        period = "AM";
->>>>>>> 5f60d806faf1e70c4ee06872528334a459e3170f
-    }
     day.innerHTML = `${d} ${monthName[m]} ${y}`
     hour.textContent = h
     minute.innerText = min
